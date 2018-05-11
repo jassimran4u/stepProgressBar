@@ -28,6 +28,7 @@ You can see index.html and controller.js to have more clarity .
 
 You can see demo at https://plnkr.co/edit/NQMsoFNrdMHCNHry3j4v?p=preview
 -
+Any Suggestion and Comments are welcomed. Thanks
 
 Controller
 -
