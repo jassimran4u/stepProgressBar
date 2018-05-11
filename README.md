@@ -26,7 +26,8 @@ It will automatically ready url and see which View is currently open and will ac
 -
 You can see index.html and controller.js to have more clarity .
 
-
+You can see demo at https://plnkr.co/edit/NQMsoFNrdMHCNHry3j4v?p=preview
+-
 
 Controller
 -
