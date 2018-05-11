@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!-- Common Includes -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/angular-route.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- App and Controller  -->
+<script type="text/javascript" src="Scripts/controller.js"></script>
+
+
+
+<body>
+
+	<div ng-app="myApp" ng-controller="myCtrl">
+		<br> <br>
+
+		<!-- Angular Directive StepProgressBar inside div (BootStrap class row is recommended before including stepProgressBar) -->
+		<!-- 
+		Inputs are : 
+		1.jsonarray = Array of json of format stepProgressBarJsonArray in Controller
+		2.theme = you can give any of 5 themes (lightblue,blue,red,green,yellow)
+		3.showtooltip = true/false . it will give tooltip to a badge from json.text of stepProgressBarJsonArray
+		-->
+
+		<div class="row">
+			<div step-progress-bar jsonarray="stepProgressBarJsonArray"
+				theme="lightblue" showtooltip="true"></div>
+		</div>
+		<br> <br>
+		<div class="row">
+			<div step-progress-bar jsonarray="stepProgressBarJsonArray"
+				theme="blue"></div>
+		</div>
+		<br> <br>
+		<div class="row">
+			<div step-progress-bar jsonarray="stepProgressBarJsonArray"
+				theme="red"></div>
+		</div>
+		<br> <br>
+		<div class="row">
+			<div step-progress-bar jsonarray="stepProgressBarJsonArray"
+				theme="green"></div>
+		</div>
+		<br> <br>
+		<div class="row">
+			<div step-progress-bar jsonarray="stepProgressBarJsonArray"
+				theme="yellow"></div>
+		</div>
+		<br> <br>
+
+
+	</div>
+</body>
+</html>
